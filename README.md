@@ -18,9 +18,7 @@ Posts列表：
 
 ### About the STL
 
-For more about how to master the STL, check out the STL [learning resource](/STL_resource/Ways_Reordering_Collection_Stl.md)
-
-.
+For more about how to master the STL, check out the STL [learning resource](/STL_resource/README.md).
 
 ### About Data Structures
 
