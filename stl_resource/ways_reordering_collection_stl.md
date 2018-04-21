@@ -1,4 +1,11 @@
-
+---
+title: "Ways Reordering Collection Stl"
+date: 2018-04-20T22:10:40+08:00
+#url : "/fluentcpp/ways"
+type: "post"
+author: Jonathan Boccara
+draft: false
+---
 # STL 中容器重新排列的方法
 
 STL 库可以对容器做很多操作， 其中一个就是可以对容器中的元素进行重新排序。或者换句话说，可以对容器进行组合排列(premutation)。

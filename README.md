@@ -18,7 +18,7 @@ Posts列表：
 
 ### About the STL
 
-For more about how to master the STL, check out the STL [learning resource](/STL_resource/README.md).
+For more about how to master the STL, check out the STL [learning resource](/stl_resource/README.md).
 
 ### About Data Structures
 
