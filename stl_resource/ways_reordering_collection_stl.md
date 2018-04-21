@@ -136,9 +136,9 @@ while (std::next_permutation(begin(numbers), end(numbers)))
 
 `std::rotate` 使用 3 个 迭代器：
 
-    - 一个指向排列范围开始
-    - 一个指向你想把它排在最前面的元素
-    - 一个指向排列范围的末尾
+- 一个指向排列范围开始
+- 一个指向你想把它排在最前面的元素
+- 一个指向排列范围的末尾
 
 在 C++11 里面， `std::rotate` 返回一个使指定元素排在第一位的迭代器。下面是它的接口：
 
@@ -297,13 +297,13 @@ std::is_permutation(v1.begin(), v1.end(),
                     v2.begin());
 ```
 
-所以如果第二个容器小于第一个容器，那么这个算法将越过第二个容器的 end 直到到达第一个容器的 end。这将是一个为定义行为。后果就是你必须保证第二个容器必须大于等于第一个容器的大小。
+所以如果第二个容器小于第一个容器，那么这个算法将越过第二个容器的 end 直到到达第一个容器的 end。这将是一个未定义行为。后果就是你必须保证第二个容器必须大于等于第一个容器的大小。
 
 但是在 C++14 中这将是正确的，它增加了一个重载对两个容器大小的额外检查。
 
 `std::is_permutation` 用 **operator==** 进行元素比较， 并且可以接受自定义的比较函数。
 
-### `std::is_permutation` 的算法复杂度
+### std::is_permutation 的算法复杂度
 
 `std::is_permutation` 具有至多 ”O(n)“ 的复杂度。
 
@@ -311,9 +311,9 @@ std::is_permutation(v1.begin(), v1.end(),
 
 其实是可以的，不过需要付出更多的内存消耗，如果你对这个比较感兴趣，我建议你去看一下 Quentin 的文章 [Lost in Permutation Complexity](https://deque.blog/2017/04/04/lost-in-permutation-complexity/)。 所以这是一个 CPU 和 内存的折中。 听起来很熟悉，是吧？
 
-### `std::is_permutation` 的一个使用例子
+### std::is_permutation 的一个使用例子
 
-试想一下如果一个函数返回一个容器 （或者用 [output iterator](https://www.fluentcpp.com/2017/11/28/output-iterator-adaptors-symmetry-range-adaptors/)来产生，但是没有指定内部元素的位置。
+试想一下如果一个函数返回一个容器 (或者用 [output iterator](https://www.fluentcpp.com/2017/11/28/output-iterator-adaptors-symmetry-range-adaptors/))来产生，但是没有指定内部元素的位置。
 
 你怎么给这个函数写一个单元测试呢？
 
