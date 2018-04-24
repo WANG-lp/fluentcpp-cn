@@ -13,12 +13,15 @@ Posts列表：
 ### About Default Parameters
 
 ### About Smart pointers
+这一节将会介绍关于 智能指针 的内容。
+
+- [聪明的开发者使用智能指针（1/7） - 智能指针 基础](smart_pointers/smart-developers-use-smart-pointers-smart-pointers-basics.md)
 
 ### About Performance
 
 ### About the STL
 
-For more about how to master the STL, check out the STL [learning resource](/stl_resource/README.md).
+* [STL 中容器重新排列的方法](stl_resource/ways_reordering_collection_stl.md)
 
 ### About Data Structures
 
