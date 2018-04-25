@@ -14,7 +14,7 @@ tags:
 ---
 # 聪明的开发者使用智能指针（1/7） - 智能指针 基础
 
-原文链接： https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/
+*原文链接： https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/*
 
 内存管理是一件可以迅速的让你的 C++ 代码混乱并且难以阅读的事情。如果在这上面做不好，就会使代码中简单的逻辑变得非常难以表达，并且失去对内存安全的控制。
 
@@ -28,8 +28,8 @@ tags:
 
 这里是这一系列文章的内容：
 
-- [智能指针基础](https://notfound.me/fluentcpp/smart-developers-use-smart-pointers-smart-pointers-basics/)
-- [unique_ptr, shared_ptr, weak_ptr, scoped_ptr, raw_pointers: 了解这些智能指针才能正确的使用它们](#)
+- [智能指针基础](https://www.notfound.me/fluentcpp/smart-developers-use-smart-pointers-smart-pointers-basics/)
+- [unique_ptr, shared_ptr, weak_ptr, scoped_ptr, raw_pointers: 了解 智能指针](https://www.notfound.me/fluentcpp/knowing-your-smart-pointers)
 - [自定义删除](#) 和 [怎么使它们更加易读](#)
 - [在unique_ptr的生命周期中修改其删除行为](#)
 - [用unique_ptr实现 PIMPL(Pointer to IMPLementation)](#)
